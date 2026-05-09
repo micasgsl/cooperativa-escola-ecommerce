@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Banner */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary/10 via-background to-secondary/10">
+      <section className="relative overflow-hidden bg-gradient-to-br from-green-50 via-emerald-50/50 to-amber-50/30 dark:from-green-950/40 dark:via-background dark:to-emerald-950/20">
         <div className="container py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <motion.div
@@ -31,7 +31,7 @@ export default function Home() {
                 Produtos 100% Artesanais
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-[Poppins] text-foreground leading-tight">
-                Sabor e <span className="text-primary">qualidade</span> direto da escola
+                Sabor e <span className="text-primary">qualidade</span> direto da ETEC
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
                 Doces, conservas, derivados de leite e hortaliças produzidos com carinho pelos alunos da ETEC Augusto Tortolero Araújo.

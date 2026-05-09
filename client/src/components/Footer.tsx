@@ -11,8 +11,8 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <img src="/manus-storage/logo-cooperativa_be0449db.jpeg" alt="Logo" className="h-12 w-12 rounded-full object-cover" />
               <div>
-                <h3 className="font-bold font-[Poppins] text-primary text-lg">Doce Escola</h3>
-                <p className="text-xs text-muted-foreground">Cooperativa Escola ETEC</p>
+                <h3 className="font-bold font-[Poppins] text-primary text-lg">Cooperativa ETEC</h3>
+                <p className="text-xs text-muted-foreground">Produtos Artesanais</p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -83,7 +83,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-border text-center text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Cooperativa Escola - Doce Escola. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Cooperativa ETEC - ETEC Augusto Tortolero Araújo. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

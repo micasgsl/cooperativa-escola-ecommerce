@@ -52,8 +52,8 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <img src="/manus-storage/logo-cooperativa_be0449db.jpeg" alt="Cooperativa Escola" className="h-10 w-10 rounded-full object-cover" />
             <div className="hidden sm:block">
-              <h1 className="text-lg font-bold font-[Poppins] text-primary leading-tight">Doce Escola</h1>
-              <p className="text-[10px] text-muted-foreground leading-tight">Cooperativa ETEC</p>
+              <h1 className="text-lg font-bold font-[Poppins] text-primary leading-tight">Cooperativa ETEC</h1>
+              <p className="text-[10px] text-muted-foreground leading-tight">Produtos Artesanais</p>
             </div>
           </Link>
 
@@ -123,9 +123,8 @@ export default function Navbar() {
             {isAuthenticated ? (
               <div className="hidden sm:flex items-center gap-2">
                 <Link href={user?.role === 'admin' ? '/admin' : '/minha-conta'}>
-                  <Button variant="ghost" size="sm" className="rounded-full gap-2">
-                    <User className="h-4 w-4" />
-                    <span className="text-sm">{user?.name?.split(' ')[0] || 'Conta'}</span>
+                  <Button variant="ghost" size="icon" className="rounded-full">
+                    <User className="h-5 w-5" />
                   </Button>
                 </Link>
               </div>

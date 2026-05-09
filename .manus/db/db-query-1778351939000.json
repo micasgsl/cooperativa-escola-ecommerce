@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO products (name, description, price, category, imageUrl, stock, featured, active) VALUES ('Mandioca Fresca', 'Mandioca fresca colhida diretamente da horta da ETEC. Ideal para cozinhar, fritar ou fazer farinha. Produto 100% natural e sem agrotóxicos.', '8.00', 'hortalicas', '/manus-storage/mandioca_36d25c8b.jpg', 50, 1, 1);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway06.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2nEECxb7qxhmcFx.root --database kSFJXDRKkqXWKCDZvXENqg --execute INSERT INTO products (name, description, price, category, imageUrl, stock, featured, active) VALUES ('Mandioca Fresca', 'Mandioca fresca colhida diretamente da horta da ETEC. Ideal para cozinhar, fritar ou fazer farinha. Produto 100% natural e sem agrotóxicos.', '8.00', 'hortalicas', '/manus-storage/mandioca_36d25c8b.jpg', 50, 1, 1);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 297
+}

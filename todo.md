@@ -51,4 +51,10 @@
 - [x] Avaliações por estrelas nos produtos
 - [x] Produtos em destaque automáticos
 - [x] Upload de imagens dos produtos reais
-- [ ] Publicação no GitHub
+- [x] Publicação no GitHub
+
+## Correções Solicitadas
+- [x] Renomear "Doce Escola" para "Cooperativa ETEC" em todo o site
+- [x] Adicionar produto mandioca ao catálogo
+- [x] Remover exibição do nome "lios" no navbar (nome do usuário logado)
+- [x] Melhorar fundo/visual da homepage
