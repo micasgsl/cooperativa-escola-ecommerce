@@ -1,0 +1,9 @@
+.git
+.gitignore
+README.md
+node_modules
+.env
+.env.local
+.manus
+drizzle
+server/_core
